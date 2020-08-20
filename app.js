@@ -146,6 +146,27 @@ class topics :
 
 
 
+let number = prompt('Enter Your Number: ')
+
+if (number <= 100 && number >= 90) {
+    document.write("You've got A+")
+} else if (number < 90 && number >= 80) {
+    document.write("You've got A")
+} else if (number < 80 && number >= 70) {
+    document.write("You've got B+")
+} else if (number < 70 && number >= 60) {
+    document.write("You've got B")
+} else if (number < 60 && number >= 50) {
+    document.write("You've got C+")
+} else if (number < 50 && number >= 40) {
+    document.write("You've got C")
+} else if (number < 40 && number >= 33) {
+    document.write("You've got D")
+} else if (number < 33 && number >= 0) {
+    document.write("You've got F")
+}else {
+    document.write("You gave a wrong number")
+}
 
 
 
